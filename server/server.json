@@ -1,0 +1,26 @@
+{
+ "students":[
+  {
+    "id": 1,
+    "nickname": "Isabella",
+    "name": "Isabella Casella",
+    "document": "111.111.111-11",
+    "adress": {
+      "country": "france",
+      "zipcode": "111111"
+    }
+  },
+  {
+    "id": 2,
+    "nickname": "Mazon",
+    "name": "João Victor Mazon",
+    "document": "111.111.111-12"
+  },
+  {
+    "id": 3,
+    "nickname": "Nogueira",
+    "name": "João Victor Nogueira",
+    "document": "111.111.111-13"
+  }
+ ]
+}
