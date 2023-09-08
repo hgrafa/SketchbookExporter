@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sketchbook exporter"
+version = "0.1.0"
+description = "A sketchbook pdf exporter"
+authors = ["hgrafa <hugorafell@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src/python", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.1"
+rich = "^13.4.2"
+pypdf2 = "^3.0.1"
+psd-tools = "^1.9.24"
+reportlab = "^4.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "" 
